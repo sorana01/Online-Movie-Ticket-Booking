@@ -2,144 +2,313 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
     font-family: 'Source Sans Pro', sans-serif;
+    color:gainsboro;
+    font-size: 20px;
 }
-.navbar{
+
+.head{
+    background-color: black;
     display: flex;
     align-items: center;
-    padding: 20px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
-nav{
+
+.nav-header{
     flex: 1;
     text-align: right;
 }
-nav ul{
+
+.nav-header ul{
     display: inline-block;
     list-style-type: none;
 }
-nav ul li{
+
+.nav-header ul li{
     display: inline-block;
-    margin-right: 20px;
-}
-nav ul li:hover{
-    text-decoration: none;
-    border-bottom: 3px solid #242526;
-}
-a{
-    text-decoration: none;
-    color: brown;
+    /* padding: 30px; */
+    margin-right: 50px; 
     font-size: larger;
     font-weight: bolder;
 }
+
+.nav-header ul li a{
+    color: red;
+    opacity: .8;
+}
+
+a{
+    text-decoration: none;
+    color:red;
+}
+
 p{
+    opacity: .7;
+}
+
+h1{
+    font-size: 35px;
+}
+
+button{
+    transition-duration: 0.2s;
     color:black;
+    background-color: gray;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px;
 }
-.container{
-    max-width: 1300px;
+
+button:hover{
+    background-color: brown;
+}
+
+.section-title{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+section{
+    background-image: linear-gradient(rgb(21, 21, 21), rgb(35, 35, 35));
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-title{
+    margin-bottom:100px;
+}
+
+
+.main{
+    margin-top: 80px;
+}
+
+.main .text {
+    margin-left: 130px;
+    padding-bottom: 20px;
+}
+
+.main .text h2{
+    color:blueviolet;
+    opacity: .7;
+    font-size: 55px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.main .picture{
+    text-align: center;
+}
+
+.main img{
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.col-2 img{
-    max-width: 105%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 80%;
+    max-height: 80%;
     border: 20px solid black;
 }
-.col-2{
-    flex-basis: 70%;
-    min-width: 300px;
-}
-.col-2 p{
-    color:black;
-    font-size:larger;
-}
-.col-2 h1{
-    color:black;
-    font-size: 65px;
-    line-height: 60px;
-    margin: 25px 0;
-}
+
 .btn{
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-bottom: 35px;
+    background: black;
     display: inline-block;
-    background:black;
-    padding: 8px 30px;
-    margin: 30px 0;
+    padding: 10px 20px;
     border-radius: 30px;
 }
+
 .btn:hover{
-    background-color:#242526
-}
-.header{
-    background:gray;
+    background-color:rgba(10, 10, 10, 0.922);
+    opacity: .4;
 }
 
-.header .row{
-    margin-top: 70px;
+.btn a{
+    font-size: 25px;
+    color: white;
 }
+
 .director{
-    margin: 100px 20px;
-}
-.col-4 h2{
-    display:inline;
+    padding-left: 80px;
 }
 
+.content-director{
+    display: flex;
+    margin-right: 100px;
+}
 
-.col-4 img{ 
-    border: 4px solid brown;
-    width:70%;
+.director-text{
+    margin-left:330px;
 }
-.movies{
-   margin: 70px 0;
+
+.director-title h2{
+    padding-bottom: 20px;
+    font-style: italic;
+    font-size: 45px;
+    color: brown;
+    opacity: .8;
+    margin-bottom: 50px;
 }
-.col-3{
-    flex-basis: 30%;
+.content-director img{
+   margin-right: 40px;
+   border: 10px solid rgba(128, 128, 128, 0.486);
+}
+
+.director-btn {
+    margin-top: 50px;
+}
+
+.director-btn button{
+    font-size: 20px;
+    border-radius: 30px;
+    width:170px;
+    height:60px;
+}
+
+/* */
+.content-featured{
+    display:flex;
+    align-items: center;
+}
+
+.col-1{
+    flex-basis:30%;
     min-width: 250px;
-    margin-bottom: 30px;
+    margin-right: 100px;
     transition: transform 0.5s;
 }
-.col-3 img{
-    width: 100%;
-    border: 4px solid black;
+
+.col-1 img{
+    width:100%;
+    border: 8px solid rgb(103, 103, 103);
 }
-.col-3 p{
-    margin-top: 15px;
+
+h4{
+    color: brown;
+    opacity: .8;
 }
-.col-3:hover{
-    transform:translate(-5px);
+
+h2{
+    color: brown;
+    opacity: .8;
 }
-.small-container{
+
+.section1{
     max-width: 1080px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
 }
-.title{
-    text-align: center;
-    margin: 0 auto 80px;
-    position: relative;
-    line-height: 25px;
-   
-}
-.title::after{
-    content: '';
-    background: brown;
-    width: 80px;
-    height: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.rating .fa{
+
+.rating .fa-star{
     color: gold;
 }
 
+.col-1 p{
+    font-size: 18px;
+}
+
+.col-1:hover{
+    transform: translateY(-5px);
+}
+
+.directors-more h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.button-featured{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.button-featured button{
+    font-size: 35px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.directors-more{
+    padding-left: 100px;
+}
+
+.directors-more .col-1 {
+    max-width: 320px;
+}
+
+.newsletter p{
+    font-size: 20px;
+}
+
+.newsletter-title{
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-box i{
+    width: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    background-color: rgb(103, 103, 103);
+}
+
+.e-box, .e-btn {
+    border: none;
+    outline: none;
+}
+
+.e-box{
+    width: 0px;
+    background-color: transparent;
+    transition: 0.6s;
+}
+
+.email-box:hover > .e-box, .e-box:focus{
+    width: 260px;
+    padding: 0 10px;
+}
+
+.e-btn{
+    text-transform: uppercase;
+    border-radius:initial;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.col-2{
+    padding: 100px 30px;
+    flex-basis:30%;
+    min-width: 250px;
+    margin-left:60px;
+    margin-right: 100px;
+    transition: transform 0.5s;
+}
+
+.col-2 p{
+    font-size: 18px;
+}
+
+.col-2 a{
+    opacity: .5;
+}
