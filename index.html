@@ -1,117 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cinema Aventura | Get Your Ticket Now</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-</head>
-<body>
-    <div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="./assets/images/logo.png" width="120px">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cinema Aventura</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="head">
+                    <img src="./assets/images/Cinema.png" width="200px">
+                    <nav class="nav-header">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="movies.html">Movies</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="">Sign Up</a></li>
+                            <li><a href="cart.html"><img src="./assets/images/cart5.png" width="30px" height="30px"></a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <nav>
-                <img src="" alt="">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Movies</a></li>
-                    <li><a href="">Tickets</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Sign Up</a></li>
-                </ul>
-            </nav>
-            <img src="./assets/images/cart5.png" width="30px" height="30px">
-        </div>
+        </header>
 
-        
-        <div class="row">
-            <div class="col-2">
-                <img src="./assets/images/cover1.jpg">
+        <section>
+            <div class="main">
+                <div class="picture">
+                    <img src="./assets/images/cover1.jpg">
+                </div>
+                <div class="text">
+                    <h2>One Ticket,<br>Unlimited Worlds</h2>
+                    <p>Enter the fascinating world of cinema at just one ticket away.</p>
+                </div>
+                <div class="btn">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <a href="movies.html"> &nbsp Get Yours Now</a>
+                </div>
             </div>
-            <div class="col-2">
-                <br><br><br>
-                <h1>One Ticket,<br>Unlimited Worlds</h1>
-                <p>Enter the fascinating world of cinema at just one ticket away.</p>
-                <a href="" class="btn">Get Yours Now</a>
-            </div>
-        </div>
-    </div>
-    </div>
+        </section>
 
-    <!----director of the week-->
-    <div class="director">
-        <h1 class="title">Director of the Week<br><br></h1>
-        <div class="row">
-            <div class="col-4">
-                <img src="./assets/images/antonioni1.jpg" alt="">
-            </div>
-            <div class="col-4">
-                <h2>Michelangelo Antonioni</h2>
-                <p>Michelangelo Antonioni 29 September 1912 – 30 July 2007) was an Italian filmmaker. He is best known for directing his "trilogy on modernity and its discontents"[1]—L'Avventura (1960), La Notte (1961), and L'Eclisse (1962)—as well as the English-language film Blow-up (1966), all considered masterpieces of world cinema. <br>
-                    His films have been described as "enigmatic and intricate mood pieces"[2] that feature elusive plots, striking visual composition, and a preoccupation with modern landscapes.[3] His work substantially influenced subsequent art cinema.[4] Antonioni received numerous awards and nominations throughout his career, being the only director to have won the Palme d'Or, the Golden Lion, the Golden Bear and the Golden Leopard.</p>
-            </div>
-        </div>
-    </div>
-
-    <!----featured movies-->
-    <li>
-        <div class="movies">
-            <div class="small-container">
-                <h1 class="title">Featured Movies<br><br></h1>
-                <div class="row">
-                    <div class="col-3">
-                        <a href="./movie-details.html">
-                            <figure class="card-banner">
-                                <img src="./assets/images/aventura.jpg">
-                            </figure>
-                        </a>
-                        <p>Thursday, 24th of November, 18:00</p>
-                        <h4>L'avventura</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <data>7.8</data>
-                        </div>
+        <!----director of the week-->
+        <section>
+            <div class="director">
+                <div>
+                    <h1 class="section-title">Director of the Week</h1>
+                </div>
+                <div class="content-director">
+                    <div class="director-image">
+                        <img src="./assets/images/antonioni1.jpg" width="300%">
                     </div>
-                    <div class="col-3">
-                        <a href="./movie-details.html">
-                            <figure class="card-banner">
-                                <img src="./assets/images/blow-up.jpg">
-                            </figure>
-                        </a>
-                        <p>Friday, 25th of November, 18:00</p>
-                        <h4>Blow-Up</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <data>7.5</data>
+                    <div class="director-text">
+                        <div class="director-title">
+                            <h2>Michelangelo Antonioni</h2>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <a href="./movie-details.html">
-                            <figure class="card-banner">
-                                <img src="./assets/images/noaptea.jpg">
-                            </figure>
-                        </a>
-                        <p>Saturday, 26th of November, 18:00</p>
-                        <h4>La Notte</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <data>8</data>
+                        <p>Michelangelo Antonioni (29 September 1912 – 30 July 2007) was an Italian filmmaker. He is best known for directing his "trilogy on modernity and its discontents" —L'Avventura (1960), La Notte (1961), and L'Eclisse (1962)— as well as the English-language film Blow-up (1966), all considered masterpieces of world cinema. <br> <br>
+                            His films have been described as "enigmatic and intricate mood pieces" that feature elusive plots, striking visual composition, and a preoccupation with modern landscapes. His work substantially influenced subsequent art cinema. Antonioni received numerous awards and nominations throughout his career, being the only director to have won the Palme d'Or, the Golden Lion, the Golden Bear and the Golden Leopard.</p>
+                        <div class="director-btn">
+                            <a href="https://en.wikipedia.org/wiki/Michelangelo_Antonioni">
+                                <button role="button">Read More</button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </li>
+        <!----featured movies-->
+        <section>
+                <div class="section1">
+                        <div>
+                            <h1 class="section-title">Featured Movies</h1>
+                        </div>
+                        <div class="content-featured">
+                            <div class="col-1">
+                                <a href="./movie-details.html">
+                                    <figure>
+                                        <img src="./assets/images/aventura.jpg">
+                                    </figure>
+                                </a>
+                                <p>Thursday, 24th of November, 18:00</p>
+                                <br>
+                                <h4>L'avventura</h4>
+                                <div>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <data>7.8</data>
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        <span>2 h 25 min</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-usd" aria-hidden="true"></i>
+                                        <data>5.99</data>
+                                        <a href="cart.html"><button role="button">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="./assets/images/blow-up.jpg">
+                                    </figure>
+                                </a>
+                                <p>Friday, 25th of November, 18:00</p>
+                                <br>
+                                <h4>Blow-Up</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <data>7.5</data>
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    <span>1 h 51 min</span>
+                                </div>
+                                <div>
+                                    <i class="fa fa-usd" aria-hidden="true"></i>
+                                    <data>5.99</data>
+                                    <a href="cart.html"><button role="button">Add to Cart</button></a>                                </div>
+                            </div>
+                            <div class="col-1">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="./assets/images/noaptea.jpg">
+                                    </figure>
+                                </a>
+                                <p>Saturday, 26th of November, 18:00</p>
+                                <br>
+                                <h4>La Notte</h4>
+                                <div>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <data>8</data>
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        <span>2 h 2 min</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-usd" aria-hidden="true"></i>
+                                        <data>5.99</data>
+                                        <a href="cart.html">
+                                            <button role="button">Add to Cart</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-featured">
+                            <a href="movies.html">
+                                <button role="button">See All Movies</button>
+                            </a>
+                        </div>
+                </div>
+        </section>
 
+        <!--more directors-->
+        <section>
+            <div class="directors-more">
+                <div>
+                    <h1 class="section-title">More Directors like this</h1>
+                </div>
+                <div class="content-featured">
+                    <div class="col-1">
+                        <a href="https://en.wikipedia.org/wiki/Roberto_Rossellini"><img src="./assets/images/rossellini.jpg"></a>
+                        <h2>Roberto Rossellini</h2>
+                    </div>
+                    <div class="col-1">
+                        <a href="https://en.wikipedia.org/wiki/Federico_Fellini"><img src="./assets/images/fellini.jpg"></a>
+                        <h2>Federico Fellini</h2>
+                    </div>
+                    <div class="col-1">
+                        <a href="https://en.wikipedia.org/wiki/Luchino_Visconti"><img src="./assets/images/visconti.jpg"></a>
+                        <h2>Luchino Visconti</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    
-</body>
+        <!--newsletter section-->
+        <section>
+            <div class="newsletter">
+                <form action="">
+                    <i class="fa fa-bell-o fa-2x" aria-hidden="true"></i>
+                    <span class="newsletter-title">
+                        Join Our Newsletter
+                    </span>
+                    <br><br><br>
+                    <p>Be reminded whenever new movies are added.</p>
+                    <br><br>
+                    <div class="email-box">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input class="e-box" type="email" name="" placeholder="Enter yout email">
+                        <button class="e-btn" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer id="contact">
+            <div class="content-featured">
+                <div class="col-2">
+                    <img src="./assets/images/Cinema.png" width="200px">
+                </div> 
+                <div class="col-2">
+                    <p>
+                        Cinema Aventura Timișoara <br>
+                        Str. Ciprian Porumbescu, nr. 2 <br>
+                        <a href="">spatii@centruldeproiecte.ro</a> <br>
+                        <br><br>
+                        For press <br>
+                        <a href=""> comunicare@centruldeproiecte.ro</a> <br>
+                        +40911.931.123
+                    </p>
+                </div>
+                <div class="col-2">
+                    <p>
+                        Centrul de Proiecte al Municipiului Timișoara <br>
+                        Str. Vasile Alecsandri, nr. 1, SAD7 <br>
+                        300078 Timișoara, România <br>
+                        CIF: 44202834 <br>
+                        <a href="">centruldeproiecte.ro</a>  <br>
+                        <a href="">contact@centruldeproiecte.ro</a>  <br>
+                    </p>
+                </div>
+           </div>
+        </footer>
+
+        
+    </body>
 </html>
