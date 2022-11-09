@@ -155,7 +155,6 @@ section{
     font-style: italic;
     font-size: 45px;
     color: brown;
-    opacity: .8;
     margin-bottom: 50px;
 }
 .content-director img{
@@ -311,4 +310,93 @@ footer{
 
 .col-2 a{
     opacity: .5;
+}
+
+.form-container{
+    margin: auto;
+    width: 375px;
+    height: 650px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 45px 0px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: rgba(128, 128, 128, 0.248);
+}
+
+.login-title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.login-credentials{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.input-field label{
+    padding-right: 120px;
+}
+
+.input-field input{
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray ;
+    background-color: rgba(128, 128, 128, 0.104);
+    margin-top: 8px;
+}
+
+.input-field input:is(:focus, :valid)
+{
+    border-bottom-color: brown;
+    opacity: .6;
+}
+
+.input-field input:is(:focus, :valid) ~ i
+{
+    border-bottom-color: brown;
+    opacity: .6;
+}
+
+.fp-button{
+    padding-left: 120px;
+    font-size: 17px;
+}
+
+.account-btn{
+    margin-top: 30px;
+    border-radius: initial;
+    border-radius: 20px;
+    width: 240px;
+    height: 45px;
+    margin-left: 15px;
+    margin-bottom: 43px;
+}
+
+.form-container p{
+    padding-top: 45px;
+    font-size: 14px;
+}
+
+.register-link{
+    font-size: 23px;
+    
+}
+
+.register-title{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-size: 40px;
+}
+
+.register-btn{
+    margin-top: 27px;
+    border-radius: initial;
+    border-radius: 20px;
+    width: 240px;
+    height: 45px;
+    margin-left: 15px;
+  
 }
