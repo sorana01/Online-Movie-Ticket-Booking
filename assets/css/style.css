@@ -375,14 +375,8 @@ footer{
     margin-bottom: 43px;
 }
 
-.form-container p{
-    padding-top: 45px;
-    font-size: 14px;
-}
-
 .register-link{
     font-size: 23px;
-    
 }
 
 .register-title{
@@ -399,4 +393,13 @@ footer{
     height: 45px;
     margin-left: 15px;
   
+}
+
+.form-container.product-form {
+    box-shadow: none;
+    height: 850px;
+}
+
+.login-credentials.product-form{
+    margin-top: 50px;
 }
