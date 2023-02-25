@@ -15,7 +15,7 @@ Front-end and back-end project for E-commerce Movie Tickets website.
   This website serves the purpose of buying movie tickets. There is a Register section, in which new clients can create an account. Afterwards, they can Log-in into their account and can make a purchase. They can  select the number of tickets they want to buy for multiple movies and see the details in the shopping cart, before deciding to order. Updation and deletion of the tickets is also available from the Shopping Cart. As long as the user hasn't sent the order, the tickets from the shopping cart are saved into a temporary database for every client. Once the order has been finished, the shopping cart is emptied and the order stored into the database for orders.
 
 
-  Only the Managers, from their account, can add, remove or modify and upcoming movies/tickets.
+  Only the Managers, from their account, can add, remove or modify any upcoming movies/tickets.
   
 # Screenshots
 
