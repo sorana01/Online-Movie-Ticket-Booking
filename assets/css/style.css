@@ -70,6 +70,7 @@ button:hover{
     position: relative;
     text-align: center;
     font-size: 50px;
+    margin-bottom:100px;
 }
 
 h2{
@@ -83,11 +84,6 @@ section{
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
-.section-title{
-    margin-bottom:100px;
-}
-
 
 .main{
     margin-top: 80px;
@@ -333,7 +329,7 @@ footer{
 .login-credentials{
     margin-top: 10px;
     margin-bottom: 35px;
-}
+} 
 
 .input-field label{
     padding-right: 120px;
@@ -402,4 +398,49 @@ footer{
 
 .login-credentials.product-form{
     margin-top: 50px;
+}
+
+.content-featured .col-1 .box img {
+    width: 300px;
+    height: auto;
+}
+
+
+.purchase-btn {
+    margin-left: 1000px;
+    font-size: 55px;
+}
+
+.shopping-cart {
+    padding: 20px 0;
+}
+
+.shopping-cart table {
+    width: 100%;
+    text-align: center;
+    border: var(--border);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+}
+
+.shopping-cart table thead {
+    background-color: var(--black);
+}
+
+.shopping-cart table thead th {
+    padding: 10px;
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.shopping-cart table .table-bottom {
+    background-color: var(--light-bg);
+}
+
+.shopping-cart table tr td{
+    padding: 10px;
+    font-size: 20px;
+    color: var(--black);
 }

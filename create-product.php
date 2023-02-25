@@ -1,27 +1,23 @@
 <?php
     include_once 'header.php';
 ?>
-
+ 
         <section>
             <div class="form-container product-form">
                 <h1 class="register-title">Add a Movie</h1>
-                <form action="includes/create-product.inc.php" method="post">
+                <form action="includes/create-product.inc.php" method="post" enctype="multipart/form-data">
                         <div class="login-credentials product-form">
                             <div class="input-field">
                                 <label for="title">Name</label><br>
                                 <input type="text" name="title"><br>
                             </div>
                             <div class="input-field">
-                                <label for="price">Price</label><br>
-                                <input type="number" name="price"><br>
-                            </div>
-                            <div class="input-field">
-                                <label for="quantity">Quantity</label><br>
-                                <input type="number" name="email"><br>
+                                <label for="price">Director</label><br>
+                                <input type="text" name="director"><br>
                             </div>
                             <div class="input-field">
                                 <label for="description">Description</label><br>
-                                <input type="text" name="description"><br>
+                                <input type="text" name="description" style="height:140px"><br>
                             </div>
                             <div class="input-field">
                                 <label for="date">Streaming Date</label><br>
@@ -41,7 +37,7 @@
                             </div>
                         </div>
                     
-                        <button type="submit" class="register-btn" name="submit">ADD MOVIE</button>
+                        <button type="submit" class="register-btn" name="submit-product">ADD MOVIE</button>
                 </form>
             </div>
             
@@ -51,7 +47,7 @@
                     echo "<p>Fill in all fields!</p>";
                 }
                 else if ($_GET["error"] == "dateexists") {
-                    echo "<p>A movie at that date and time already exists!</p>";
+                    echo "<p>A movie is already streaming at that date and time!</p>";
                 }
                 else if ($_GET["error"] == "productexists") {
                     echo "<p>This movie already exists!</p>";
@@ -60,7 +56,7 @@
                     echo "<p>Something went wrong. Try again!</p>";
                 }
                 else if ($_GET["error"] == "none") {
-                    echo "<p>New account successfully registered!</p>";
+                    echo "<p>New movie successfully registered!</p>";
                 }
             }
             ?>

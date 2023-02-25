@@ -1,6 +1,6 @@
 <?php
-
-if (isset($_POST["submit"])) {
+ 
+if (isset($_POST["submit-login"])) {
     $username = $_POST["user"];
     $pwd = $_POST["pwd"];
 

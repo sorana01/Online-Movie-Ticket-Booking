@@ -1,6 +1,6 @@
 <?php
-
-if (isset($_POST["submit"])) {
+ 
+if (isset($_POST["submit-register"])) {
     $fname = $_POST["fname"];
     $lname = $_POST["lname"]; 
     $email = $_POST["email"];

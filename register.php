@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     
-                        <button type="submit" class="register-btn" name="submit">CREATE ACCOUNT</button>
+                        <button type="submit" class="register-btn" name="submit-register">CREATE ACCOUNT</button>
                 </form>
                 </div>
             </div>

@@ -40,7 +40,6 @@
                                 }
                                 else {
                                     echo "<li><a href='log-in.php'>Log In</a></li>";
-                                    echo "<li><a href='cart.php'><img src='./assets/images/cart5.png' width='30px' height='30px'></a></li>";
                                 }
                             ?>
                         </ul>

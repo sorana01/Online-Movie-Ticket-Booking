@@ -97,7 +97,8 @@
                                 <div>
                                     <i class="fa fa-usd" aria-hidden="true"></i>
                                     <data>5.99</data>
-                                    <a href="cart.html"><button role="button">Add to Cart</button></a>                                </div>
+                                    <a href="cart.html"><button role="button">Add to Cart</button></a>                                
+                                </div>
                             </div>
                             <div class="col-1">
                                 <a href="./movie-details.html">
