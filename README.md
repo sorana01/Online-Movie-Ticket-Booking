@@ -1,5 +1,5 @@
 # Online-Movie-Ticket-Booking
-Front-end and back-end project for E-commerce Movie Tickets website.
+Front-end and back-end project for E-commerce Movie Tickets website + Log In and Register
 
 # Built With
 * Front-end
